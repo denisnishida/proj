@@ -7,7 +7,7 @@
     include 'include/user_permission.php';
 
     // Connect to database
-    require 'include/connect.php';
+    //require 'include/connect.php';
 
     // start session
     session_start();
@@ -25,16 +25,16 @@
 
     // Get all the productions in the productions table
     // run a SELECT query
-    $query = "SELECT ProductionId, Name, DateReleased, Country, LastUpdate FROM productions ORDER BY $orderBy";
+    //$query = "SELECT ProductionId, Name, DateReleased, Country, LastUpdate FROM productions ORDER BY $orderBy";
 
     // prepare a PDOStatement object
-    $statement = $db->prepare($query);
+    //$statement = $db->prepare($query);
 
     // The query is now executed.
-    $success = $statement->execute();
+    //$success = $statement->execute();
 
     // Fetch the result in a local variable
-    $productions = $statement->fetchAll();
+    //$productions = $statement->fetchAll();
 ?>
 
 <?php include "templates/header.php" ?>
