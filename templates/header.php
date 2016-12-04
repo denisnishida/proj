@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="/proj/">
+    <base href="/">
     <meta charset="utf-8">
     <title>Series Manager</title>
     <script src="vendor/ckeditor/ckeditor/ckeditor.js"></script>
